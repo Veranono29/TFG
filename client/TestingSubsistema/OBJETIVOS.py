@@ -1,7 +1,7 @@
 from hashlib import md5
 HASH_OBJETIVO = md5("INER-".encode()).hexdigest() # INER- line 11.084.266
 filename= "realhuman_phill.txt"
-#filename= "rockyou.txt"
+#filename= "rockyou_limpio.txt"
 f_res_name= "Client\\TestingSubsistema\\zunder_Final_TFG\\multiprocess_stats.csv"
 #number_lines = 63941070
 #number_lines = 14344391

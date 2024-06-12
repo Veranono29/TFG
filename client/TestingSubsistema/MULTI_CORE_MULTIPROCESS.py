@@ -4,7 +4,7 @@ from multiprocessing import cpu_count
 from ctypes import c_char,c_bool
 
 # HASH_OBJETIVO = md5("INER-".encode()).hexdigest() # INER- line 11.084.266
-# filename= "rockyou.txt"
+# filename= "rockyou_limpio.txt"
 
 from OBJETIVOS import *
 
