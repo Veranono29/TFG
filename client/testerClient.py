@@ -42,7 +42,7 @@ def hashDecripter(HASH_OBJETIVO:str): #from-to-bytes (int-int), wordlist(rockyou
         from_to_bytes = tmp_ftbytes.split("-")        ###### HAY QUE ENVIAAAAR FROM-TO-BYTES(INT)
         print("First",from_to_bytes[0],"Last:",from_to_bytes[-1])
         wordlist = listen_for_messages(client_socket)
-        print("Wordlist",wordlist)            #"C:\\Users\\gescu\\Downloads\\rockyou.txt" \
+        print("Wordlist",wordlist)            #"C:\\Users\\user\\Downloads\\rockyou.txt" \
         # wordlist = "rockyou_limpio.txt" \
         #             if tmp_wd=="rockyou" \
         #             else "realhuman_phill.txt"                      ###### EL NOMBRE DE LA WORDLIST
@@ -89,6 +89,6 @@ while True:
         print("DECRYPT HASH: "+ cmd[1:])
         hashDecripter(cmd[1:])
     else:
-        print("Nudo en el ANO")
+        print("Error inesperado")
     
     
